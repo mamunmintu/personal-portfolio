@@ -13,6 +13,15 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .hero-section .main-content {
+    grid-template-columns: 1fr;
+  }
+  .hero-section .main-content > * {
+    grid-column: 1 / 2;  
+  }
+}
+
 @media only screen and (max-width: 1500px) {
   .squre-1 .squre-1-wrapper img {
     width: 200px;
